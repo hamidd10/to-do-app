@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #7ECBFA;
+
+}
+.container{
+    background-color: #BEE5FD;
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+   
+}
+.list{
+    background-color: #BEE5FD;
+    border-radius: 10px;
+    padding: 10px;
+    list-style: none;
+}
+.sub-input{
+    border-radius: 10px;
+    width: 400px;
+    height: 50px;
+    padding: 10px;
+    border: 2px solid #FFF;
+    font-size: 16px;
+    font-weight: bold;
+}
+.button-add{
+    width: 80px;
+    height: 50px;
+    background-color: #2569F6;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+.main-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+}
+.update{
+    background-color: #2569F6;
+    border-radius: 7px;
+    width: 65px;
+    height: 40px;
+    color: #FFF;
+    font-weight: bold;
+}
+.form-input{
+    border-radius: 10px;
+    height: 40px;
+    padding: 7px;
+    font-weight: bold;
+}
+.form{
+    display: flex;
+    gap: 10px;
+}
+.edit-button{
+    background-color: rgb(26, 184, 26);
+    border-radius: 7px;
+    width: 65px;
+    height: 40px;
+    color: #FFF;
+    font-weight: bold;
+}
+.link{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.cancel{
+    background-color: rgb(184, 55, 26);
+    border-radius: 7px;
+    width: 65px;
+    height: 40px;
+    color: #FFF;
+    font-weight: bold;
+}
+.about{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 300px;
+
+}
